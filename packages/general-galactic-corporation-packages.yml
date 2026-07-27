@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/eip4361-tools
+notes: >-
+  General Galactic Corporation published open-source Ethereum developer tooling
+  under the github.com/generalgalactic organization. Only eip4361-tools is a
+  first-party package on a public registry (npm) whose repository resolves to the
+  generalgalactic org and whose maintainer (clintecker) is a General Galactic
+  team member. The ERC721S / erc721s contract is distributed from a different
+  owner (github.com/stablepunkz) and is not confidently first-party, so it is not
+  marked official here. The company wound down its products in 2023.
+packages:
+  - language: javascript
+    registry: npm
+    name: eip4361-tools
+    version: 0.0.1
+    url: https://www.npmjs.com/package/eip4361-tools
+    repository: https://github.com/generalgalactic/eip4361-tools
+    install: npm install eip4361-tools
+    description: A set of tools for working with Sign-In With Ethereum (EIP-4361).
+    license: MIT
+    published: '2021-11-09'
+    official: true

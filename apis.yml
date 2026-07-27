@@ -1,23 +1,63 @@
 aid: general-galactic-corporation
 name: General Galactic Corporation
-description: General Galactic Corporation is a company surfaced as a portfolio company of bloomberg-beta
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  General Galactic Corporation was an early-stage web3 studio founded by Rob Mee
+  (founder of Pivotal Labs) and backed by Bloomberg Beta. It built open-source
+  Ethereum developer tooling published under the generalgalactic GitHub
+  organization, including eip4361-tools for Sign-In With Ethereum (EIP-4361), the
+  ERC721Sequential (ERC721S) gas-optimized NFT contract, an ENS registry
+  (skyteller-ens-registry), and related SIWE authentication utilities. The
+  company wound down its products and experiments in 2023; its site now runs as
+  an ENS/IPFS page announcing the closure. This profile catalogs the remaining
+  public open-source and package footprint. No hosted or public API is currently
+  operated by the company.
 url: https://raw.githubusercontent.com/api-evangelist/general-galactic-corporation/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/68410640
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Web3
+- Ethereum
+- Blockchain
+- Developer Tools
+- Open Source
+- NFT
+- Authentication
 apis: []
+common:
+- type: Website
+  url: https://generalgalactic.eth.limo/
+- type: GitHubOrganization
+  url: https://github.com/generalgalactic
+- type: Packages
+  url: packages/general-galactic-corporation-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
