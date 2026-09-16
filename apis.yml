@@ -40,7 +40,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Web3
@@ -50,6 +50,7 @@ tags:
 - Open-Source
 - NFT
 - Authentication
+- Defunct
 tags_raw:
 - Company
 - Web3
@@ -59,6 +60,7 @@ tags_raw:
 - Open Source
 - NFT
 - Authentication
+- Defunct
 apis: []
 common:
 - type: Website
